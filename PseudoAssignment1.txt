@@ -1,0 +1,40 @@
+//Program Design, Pseudocode, and Algorithms Assignment
+
+#1 Finding average score of 10 input exam scores
+I) Ask user for 10 exam scores
+P) Calculate the average
+O) Print average
+
+Create array that will hold up to ten test scores
+Initialize grade counter to zero
+	While grade counter is less than ten
+		Ask user to input test score
+		Add the input into array
+		If the grade counter equals 9
+			Calculate the mean of the array
+			Print the class average
+		Else
+			Add one to grade counter
+		End if
+	End While
+	
+	
+#2 How much water runs off the roof?
+I)Ask user for Length, Width, Inches of Rain
+P)Convert width and length to inches
+  Multiply new width, length, and amount of rainfall
+  DConvert to gallons 
+O)Pring number of gallons
+
+
+Ask user for length
+Create new length variable by multiplying input by 12
+Ask user for width
+Create new width variable by multiplying by 12
+Ask user for amount of rainfall
+Multiply the three variables together to get total cubic inches of rainfall
+Divide the new value by 231 as new variable gallons
+Print the amount of rainfall in gallons
+
+
+
