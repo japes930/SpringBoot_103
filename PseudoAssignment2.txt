@@ -1,0 +1,36 @@
+//Process Customer Record
+
+
+INPUT				PROCESS												OUTPUT
+name				receive name			
+purchaseAmount		receive purchaseAmount
+taxCode				receive taxCode		
+					Multiply taxCode by purchaseAmount for taxTotal
+					add taxTotal to purchaseAmount for totalAmount		
+																		Print name
+																		print purchaseAmount
+																		print taxTotal
+																		print totalAmount
+																		
+					
+					
+input name
+input purchaseAmount
+input taxCode
+
+CASE OF	taxCode
+	=0: taxPercent = 0
+	=1: taxPercent = .03
+	=2: taxPercent = .05
+	=3: taxPercent = .07
+ENDCASE
+
+Multiply taxPercent by  purchaseAmount for taxTotal
+Add taxTotal to purchaseAmount for totalAmount
+
+Print Name
+Print purchaseAmount
+print taxTotal
+print totalAmount
+
+
