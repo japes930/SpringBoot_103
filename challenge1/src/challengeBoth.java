@@ -1,5 +1,5 @@
  /***************************************************************************************
- *JP Villaflores                                                                        *
+ * JP Villaflores                                                                       *
  * 6/14/19 Challenge 1                                                                  *
  * Objective: User will either provide a number or ask for a random one and then script *
  *            will determine if number is prime or not                                  *
@@ -39,7 +39,7 @@ public class challengeBoth {
                 prime = false;
             }
 
-            //If number selected is 2, 3, or 5 it will know its prime
+            //If number selected IS 2, 3, or 5 it will know its prime
             int[] primeArr = {2, 3, 5};
             for (int i = 0; i < primeArr.length; i++) {
                 if (num == primeArr[i]) {
