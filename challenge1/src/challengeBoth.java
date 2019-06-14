@@ -5,8 +5,12 @@
  *            will determine if number is prime or not                                  *
  ***************************************************************************************/
 
+import java.util.List;
 import java.util.Scanner;
 import java.util.Random;
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class challengeBoth {
     public static void main( String[] args){
 
@@ -34,16 +38,16 @@ public class challengeBoth {
                     break;
             }
 
-            //If number is divisible by 2, 3, or 5 it is not prime
-            if ((num % 2 == 0) || (num % 3 == 0) || (num % 5 == 0)) { //Test 1
-                prime = false;
-            }
-
-            //If number selected IS 2, 3, or 5 it will know its prime
-            int[] primeArr = {2, 3, 5};
+            //Creates Array for prime numbers
+            //If number is in array prime = true
+            //If the number is divisible by any of the prime numbers its not prime (!*redundant?*!)
+            int[] primeArr = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43,
+                    47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97};
             for (int i = 0; i < primeArr.length; i++) {
                 if (num == primeArr[i]) {
                     prime = true;
+                } else if(num % primeArr[i] == 0) {
+                    prime = false;
                 }
             }
 
@@ -53,6 +57,16 @@ public class challengeBoth {
                 System.out.println(num + " IS a prime number!");
             } else {
                 System.out.println(num + " is not a prime number.");
+            //Creates array to add what number is divisible by
+                List<Integer> divArray = new ArrayList<Integer>();
+                for (int i = num; i <= num && i > 1; i--){
+                    if (num==i){
+                        continue;
+                    } else if(num%i==0){
+                        divArray.add(i);
+                    }
+                }
+                System.out.println(num  + " is divisible by: " + divArray);
             }
 
 
