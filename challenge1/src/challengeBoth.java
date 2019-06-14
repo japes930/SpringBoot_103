@@ -46,7 +46,8 @@ public class challengeBoth {
             for (int i = 0; i < primeArr.length; i++) {
                 if (num == primeArr[i]) {
                     prime = true;
-                } else if(num % primeArr[i] == 0) {
+                } else if
+                else if(num % primeArr[i] == 0) {
                     prime = false;
                 }
             }
