@@ -11,6 +11,7 @@ public class KeepGuessing {
         System.out.print("Enter the number:");
         guess = keyboard.nextInt();
 
+
         while ( guess != secretNumber )
         {
             System.out.println("\nYou are wrong. Try again.");
