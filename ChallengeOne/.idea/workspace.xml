@@ -12,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="challengeOne.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="challengeOne.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/challengeOne.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="364">
@@ -20,6 +20,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="challengeBoth.java" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Week1Challenge/src/challengeBoth.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,14 +62,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="83" />
-    <option name="y" value="3" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="119" />
+    <option name="y" value="80" />
     <option name="width" value="860" />
     <option name="height" value="1016" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -72,30 +82,14 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ChallengeOne" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ChallengeOne" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MonthSwitch" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Week1Challenge/src/challengeBoth.java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -225,15 +219,15 @@
       <option name="presentableId" value="Default" />
       <updated>1560519563835</updated>
       <workItem from="1560519574985" duration="11793000" />
-      <workItem from="1560777441501" duration="539000" />
+      <workItem from="1560777441501" duration="1162000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12332000" />
+    <option name="totallyTimeSpent" value="12955000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="83" y="3" width="860" height="1016" extended-state="1" />
+    <frame x="119" y="80" width="860" height="1016" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -294,6 +288,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Week1Challenge/src/challengeBoth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
