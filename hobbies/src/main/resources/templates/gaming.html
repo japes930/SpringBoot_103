@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+    <!--<link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">-->
+    <link rel="stylesheet" type="text/css" href="resources/static/style.css">
+    <title>gaming</title>
+    <style>
+        .topnav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        img{
+            height:10rem;
+            width:20rem;
+            border-radius: 10px;
+        }
+        .sidespan{
+            background-color: #524644;
+            width: 15%;
+        }
+        body{background-color:#ffffff;
+        overflows:hidden;}
+    </style>
+</head>
+<body>
+<!--<th:block th:replace="~{index::nav}"></th:block>-->
+    <div class = "topnav">
+        <a href="#home">Home</a>
+        <a href="#gaming">Gaming</a>
+        <a href="#netflix">Netflix</a>
+        <a href="#exercise">Exercise</a>
+    </div>
+
+
+    <div style="display:flex";>
+        <span class = "column, sidespan" style = "width:15%;"></span>
+        <div class = "gaming-container" style="flex-direction:column; width:70%;">
+            <div style="display:flex; flex-direction:row; justify-content: space-around;">
+                <img src="https://assets.rockpapershotgun.com/images/2018/10/BlopsBlackout1.jpg">
+                <img src="https://s3.amazonaws.com/prod-media.gameinformer.com/styles/body_default/s3/2018/09/08/6de0050c/Costantino%20Gallo.jpg">
+                <img src="http://media.contentapi.ea.com/content/www-easports/en_US/nhl-19/news/2018/nhl-19-features-blog/_jcr_content/imageShare.img.jpg">
+            </div>
+
+            <div style="display:flex; flex-direction:row; justify-content: space-around; padding:5% 20%">
+                <img src="https://i.ytimg.com/vi/7KiKb5q9d9o/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCqXTRvXonFvHyugybDOGxdAPlbFw">
+                <!--<img src="/images/fo42.jpg">--><span style="padding: 5%"></span>
+                <img src="https://cdn.images.express.co.uk/img/dynamic/143/590x/Fallout-4-mods-launching-with-update-1-8-733074.jpg">
+            </div>
+        </div>
+        <span class = "column, sidespan" style="width:15%;"></span>
+    </div>
+
+</body>
+</html>
